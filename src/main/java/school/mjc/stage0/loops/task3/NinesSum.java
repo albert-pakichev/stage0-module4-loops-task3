@@ -10,8 +10,8 @@ public class NinesSum {
                 p = (p * 10) + 9;
             }
         } else {
-            System.out.println("Write new number");
+            logger.log("Write new number");
         }
-        System.out.print(sum);
+        logger.log(sum);
     }
 }
